@@ -1,0 +1,23 @@
+# Ignorar archivos específicos para la API (ajusta si tu API no es Node.js)
+/api/node_modules/
+/api/npm-debug.log*
+/api/.env
+/api/dist/ # Si tu API genera archivos de build en una carpeta 'dist'
+/api/__pycache__/ # Para Python
+/api/.venv/ # Para Python
+
+# Ignorar archivos específicos para la aplicación Android
+/android_app/build/
+/android_app/.gradle/
+/android_app/.idea/
+/android_app/local.properties
+/android_app/*.iml
+/android_app/.externalNativeBuild/
+/android_app/.cxx/
+/android_app/*.apk
+/android_app/*.ap_
+/android_app/captures/
+
+# Archivos generales del sistema operativo
+.DS_Store
+Thumbs.db
